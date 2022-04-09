@@ -3,6 +3,7 @@ body {
   border-radius: 9px;
   border: 10px solid #e7ecfb;
   box-shadow: 0 0 30px #22cfb8;
-  padding: 500px;
-  text-align: center;
+  /* padding: 500px; */
+  /* text-align: center; */
+  font-family: fantasy;
 }
