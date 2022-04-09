@@ -1,9 +1,12 @@
 body {
   background: #d2dee4;
-  border-radius: 9px;
+  /* border-radius: 9px;
   border: 10px solid #e7ecfb;
-  box-shadow: 0 0 30px #22cfb8;
+  box-shadow: 0 0 30px #22cfb8; */
   /* padding: 500px; */
-  /* text-align: center; */
+  text-align: center;
   font-family: fantasy;
+  display: flex;
+  justify-content: center;
+  
 }
