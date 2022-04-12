@@ -3,7 +3,6 @@ import {Link} from "react-router-dom";
 
 const Dashboard = ({ stocks }) => {
  
-
   return (
     <div className="dashboard">
       {stocks.map((stock) => {
