@@ -1,12 +1,13 @@
 # React Router Stock App
- Spin a new react up using create-react-app
+
+### Spin a new react up using create-react-app
 
 Look over the working [Solution](https://vhixt.csb.app/) and examine the app in React Dev Tools to see if you can elicit the structure so that you have a starting point for you app.
 
 This version of the application should use hard-coded stocks data, which you can find in create a data.json file with the data below to use. however if you want to leverage pulling data from an API you can sign up for an API key and use `https://financialmodelingprep.com/`
 
 data for your data.json file, just copy and paste it into a new data.json file in your src folder and then import the file. `import data from "./data.js"`
-
+```
 const stocks = [
   {name: "Apple Inc.", symbol: "AAPL", lastPrice: 140.64, change: -0.280000000000001, high: 141.74, low: 140.35, open: 141.5},
   {name: "Microsoft Corporation", symbol: "MSFT", lastPrice: 64.98, change: 0.109999999999999, high: 65.45, low: 64.76, open: 65.12},
@@ -15,16 +16,18 @@ const stocks = [
   {name: "Oracle Corporation", symbol: "ORCL", lastPrice: 44.65, change: -0.300000000000004, high: 45.09, low: 44.575, open: 44.91},
   {name: "Intel Corporation", symbol: "INTL", lastPrice: 36.16, change: -0.370000000000005, high: 36.78, low: 36.125, open: 36.58}
     ]
+```
 
 export default stocks
 Here is your routing table. So when your app is complete it should have all the routes below.
 
-`Route`	            `Renders`	                `Component`
-`/`	                `"This is the Homepage page"`	`Home`
-`/about`	         `"This is the A about page"`	`About`
-`/stocks/:symbol`	  `A single stock`	            `Stock`
-`/stocks`	           `All stocks`	                `Dashboard`
-
+```
+Route	                Renders                             Component
+/	                "This is the Homepage page                 Home
+/about	            "This is the A about page"          	   About
+/stocks/:symbol	    A single stock	                           Stock
+/stocks	            All stocks                                 Dashboard
+```
 Your stock tracking app should have the following features...
 
 ## Navigation
