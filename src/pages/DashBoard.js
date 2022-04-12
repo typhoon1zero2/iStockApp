@@ -1,9 +1,22 @@
-import React from 'react'
+import {Link} from "react-router-dom";
 
-function DashBoard() {
+
+const Dashboard = ({ stocks }) => {
+ 
+
   return (
-    <div>DashBoard</div>
-  )
-}
+    <div className="dashboard">
+      {stocks.map((stock) => {
+        const {name, symbol, lastPrice, change, high, low, open} = stock;
 
-export default DashBoard
+        return (
+          <Link to={`/stocks/${symbol}`}>
+            <li>{name}</li>
+          </Link>
+        )
+      })}
+    </div>
+  )
+};
+
+export default Dashboard;
