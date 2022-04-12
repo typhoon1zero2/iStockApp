@@ -1,13 +1,5 @@
 body {
-  background: #88b6cd;
-  /* border-radius: 9px;
-  border: 10px solid #e7ecfb;
-  box-shadow: 0 0 30px #22cfb8; */
-  /* padding: 500px; */
-  /* text-align: center; */
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  /* display: flex; */
-  /* justify-content: center; */
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .nav {
@@ -26,4 +18,23 @@ body {
 .nav a {
   color: white;
   text-decoration: none;
+}
+.Show {
+  background: #88b6cd;
+  border-radius: 9px;
+  border: 10px solid #e7ecfb;
+  box-shadow: 0 0 30px #22cfb8; 
+  padding: 50px; 
+  justify-content: center;
+}
+.stock-symbol{
+  box-shadow: 0 0 30px #3c4140; 
+}
+.dashboard {
+  background: #88b6cd;
+  border-radius: 9px;
+  border: 10px solid #e7ecfb;
+  box-shadow: 0 0 30px #22cfb8; 
+  padding: 90px; 
+  justify-content: center;
 }

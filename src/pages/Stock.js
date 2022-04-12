@@ -25,7 +25,6 @@ export default function Stock() {
     return (
       <div className="Show">
         <h1 className="show-name">{stock.name}</h1>
-        {/* <h2>Symbol: {stock.symbol}</h2> */}
             <p>Last Price: ${stock.lastPrice}</p>
             <p>Change: ${stock.change}</p>
             <p>Day High: ${stock.high}</p>

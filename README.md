@@ -1,5 +1,7 @@
 # React Router Stock App
 
+[Live Link](https://6255d4f0d2e17b06c53a5549--wonderful-dragon-c1ddbc.netlify.app/)
+
 ### Spin a new react up using create-react-app
 
 Look over the working [Solution](https://vhixt.csb.app/) and examine the app in React Dev Tools to see if you can elicit the structure so that you have a starting point for you app.
@@ -7,6 +9,7 @@ Look over the working [Solution](https://vhixt.csb.app/) and examine the app in 
 This version of the application should use hard-coded stocks data, which you can find in create a data.json file with the data below to use. however if you want to leverage pulling data from an API you can sign up for an API key and use `https://financialmodelingprep.com/`
 
 data for your data.json file, just copy and paste it into a new data.json file in your src folder and then import the file. `import data from "./data.js"`
+
 ```
 const stocks = [
   {name: "Apple Inc.", symbol: "AAPL", lastPrice: 140.64, change: -0.280000000000001, high: 141.74, low: 140.35, open: 141.5},
@@ -23,9 +26,9 @@ Here is your routing table. So when your app is complete it should have all the 
 
 ```
 Route	            Renders                             Component
-/	                This is the Homepage page           Home
+/	               This is the Homepage page           Home
 /about	            This is the A about page            About
-/stocks/:symbol	    A single stock	                    Stock
+/stocks/:symbol	   A single stock	                    Stock
 /stocks	            All stocks                          Dashboard
 ```
 Your stock tracking app should have the following features...
