@@ -24,21 +24,21 @@ export default function Stock() {
   const loaded = () => {
     return (
       <div className="Show">
-        {/* <h1 className="show-name">{stock.name}</h1> */}
+        <h1 className="show-name">{stock.name}</h1>
         {/* <h2>Symbol: {stock.symbol}</h2> */}
-        {/* <p>Last Price: ${stock.lastPrice}</p>
-        <p>Change: ${stock.change}</p>
-        <p>Day High: ${stock.high}</p>
-        <p>Day Low: ${stock.low}</p>
-        <p>Open: ${stock.open}</p> */}
+            <p>Last Price: ${stock.lastPrice}</p>
+            <p>Change: ${stock.change}</p>
+            <p>Day High: ${stock.high}</p>
+            <p>Day Low: ${stock.low}</p>
+            <p>Open: ${stock.open}</p>
       </div>
     );
   };
   const loading = <h1>Loading...</h1>;
   return (
     <div className="stock-symbol">
-      {/* <h1>Stock : {symbol}</h1> */}
-      {stock.symbol ? loaded() : loading}
+            <h1>Stock : {symbol}</h1>
+            {stock.symbol ? loaded() : loading}
     </div>
   );
 }
