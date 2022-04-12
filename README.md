@@ -7,7 +7,6 @@ Look over the working [Solution](https://vhixt.csb.app/) and examine the app in 
 This version of the application should use hard-coded stocks data, which you can find in create a data.json file with the data below to use. however if you want to leverage pulling data from an API you can sign up for an API key and use `https://financialmodelingprep.com/`
 
 data for your data.json file, just copy and paste it into a new data.json file in your src folder and then import the file. `import data from "./data.js"`
-<hr />
 ```
 const stocks = [
   {name: "Apple Inc.", symbol: "AAPL", lastPrice: 140.64, change: -0.280000000000001, high: 141.74, low: 140.35, open: 141.5},
